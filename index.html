@@ -1,42 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Pizzaro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzaro - Fresh Pizza</title>
+  <!-- Google Fonts & CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <nav>
-        <p>Home</p>
-        <p>About</p>
-        <p>Contact Us</p>
-    </nav>
-    <main>
-        <h1>Pizzaro</h1>
-        <button>Order Now</button>
-    </main>
-    <section>
-        <h3>Our Menu</h3>
-        <img src="/assest/pizza1.png" alt="pizza">
-        <img src="/assest/pizza2.png" alt="pizza">
-        <img src="/assest/pizza3.png" alt="pizza">
-    </section>
-    <div class="about">
-        <img src="/assest/about.jpg" alt="pizza">
-        <p>Pizzaro started as a tiny neighborhood spot where the owner, a lifelong pizza lover, spent years perfecting his dough recipe and sauce. What began as a simple dream turned into a restaurant known for its warm atmosphere and honest, high-quality food. Every pizza is made with fresh ingredients, slow-fermented dough, and a sauce cooked daily, giving each slice a rich flavor that keeps people coming back. Pizzaro’s story is built on passion, and its food reflects that care in every bite.</p>
-    </div>
-    <footer>
-  <div class="footer-info">
-    <h3>Pizzaro</h3>
-  </div>
 
-  <div class="footer-contact">
+  <!-- ---------- Header ---------- -->
+  <header>
+    <div class="logo">Pizzaro</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ---------- Hero Section ---------- -->
+  <section class="hero" id="home">
+    <h1>Fresh, Handcrafted Pizza</h1>
+    <p>Every slice is made with love and the freshest ingredients.</p>
+    <button>Order Now</button>
+  </section>
+
+  <!-- ---------- About Section ---------- -->
+  <section id="about">
+    <h2>About Pizzaro</h2>
+    <p>Pizzaro started as a small neighborhood pizzeria with one goal: deliver the best pizza experience. We use slow-fermented dough, fresh daily sauce, and the finest toppings to create unforgettable flavor in every bite.</p>
+  </section>
+
+  <!-- ---------- Menu Section ---------- -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div class="menu-item">
+        <img src="/assest/pizza1.png" alt="Margherita Pizza">
+        <h3>Margherita</h3>
+        <p>Classic tomato sauce, fresh mozzarella, and basil leaves.</p>
+      </div>
+      <div class="menu-item">
+        <img src="/assest/pizza2.png" alt="Pepperoni Pizza">
+        <h3>Pepperoni</h3>
+        <p>Tomato sauce, mozzarella, and loads of pepperoni slices.</p>
+      </div>
+      <div class="menu-item">
+        <img src="/assest/pizza3.png" alt="Veggie Pizza">
+        <h3>Veggie Delight</h3>
+        <p>Fresh vegetables, mozzarella, and our special tomato sauce.</p>
+      </div>
+      <div class="menu-item">
+        <img src="/assest/pngegg.png" alt="BBQ Chicken Pizza">
+        <h3>BBQ Chicken</h3>
+        <p>Grilled chicken, BBQ sauce, onions, and mozzarella.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- Contact Section ---------- -->
+  <section id="contact">
+    <h2>Contact Us</h2>
     <p>Phone: +1 (555) 247-9920</p>
     <p>Email: contact@pizzaro-food.com</p>
-  </div>
-</div>
-<script src="script.js"></script>
+    <p>Address: 124 Market Street, Riverview City, CA 90210</p>
+  </section>
+
+  <!-- ---------- Footer ---------- -->
+  <footer>
+    <div class="footer-social">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+    <p>© 2025 Pizzaro. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
